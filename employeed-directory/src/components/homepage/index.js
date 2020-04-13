@@ -67,62 +67,6 @@ class Homepage extends Component {
                 },
                 "nat": "US"
             }],
-            usersbackup: [{
-                "gender": "male",
-                "name": {
-                    "title": "Mr",
-                    "first": "Bradley",
-                    "last": "Sanders"
-                },
-                "location": {
-                    "street": {
-                        "number": 3680,
-                        "name": "Spring Hill Rd"
-                    },
-                    "city": "Bozeman",
-                    "state": "North Carolina",
-                    "country": "United States",
-                    "postcode": 91894,
-                    "coordinates": {
-                        "latitude": "66.0687",
-                        "longitude": "-96.2642"
-                    },
-                    "timezone": {
-                        "offset": "-8:00",
-                        "description": "Pacific Time (US & Canada)"
-                    }
-                },
-                "email": "bradley.sanders@example.com",
-                "login": {
-                    "uuid": "1c25c1ae-6e22-4b1d-b031-26ef5286de1f",
-                    "username": "bluebutterfly262",
-                    "password": "123321",
-                    "salt": "B6jiRf2T",
-                    "md5": "8ccb29372d297f07453a0e95ed479594",
-                    "sha1": "0ab36b62c0ddd3057c18bde15eb1689053f41a5e",
-                    "sha256": "0ab6bd8f730d23dfe5cc68e071dd22d21553466c5f27a25fe0b46c000b012bfd"
-                },
-                "dob": {
-                    "date": "1966-11-08T18:05:18.700Z",
-                    "age": 54
-                },
-                "registered": {
-                    "date": "2018-02-08T23:11:24.614Z",
-                    "age": 2
-                },
-                "phone": "(315)-388-0998",
-                "cell": "(145)-198-7734",
-                "id": {
-                    "name": "SSN",
-                    "value": "642-59-3819"
-                },
-                "picture": {
-                    "large": "https://randomuser.me/api/portraits/men/97.jpg",
-                    "medium": "https://randomuser.me/api/portraits/med/men/97.jpg",
-                    "thumbnail": "https://randomuser.me/api/portraits/thumb/men/97.jpg"
-                },
-                "nat": "US"
-            }],
             activeItem: '(choose method)',
             activeMethod: '(choose method)',
             activeInput: '(input search)'
@@ -378,9 +322,6 @@ class Homepage extends Component {
             console.log(this.state.users);
         });
     }
-
-    //handleSort = (e, { name }) => this.setState({ activeMethod: name })
-    //handleFilter = (e, { name }) => this.setState({ activeMethod: name })
 
     componentDidMount() {
 
